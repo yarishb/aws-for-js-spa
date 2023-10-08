@@ -15,7 +15,7 @@ plugins:
   - serverless-finch
   - serverless-single-page-app-plugin
 
-service: bohdan-study-bucket
+service: yhbohdan-study-shop-fe
 # app and org for use with dashboard.serverless.com
 #app: your-app-name
 #org: your-org-name
@@ -30,7 +30,7 @@ provider:
 
 custom:
   client:
-    bucketName: bohdan-study-bucket
+    bucketName: yhbohdan-study-shop-fe
     distributionFolder: dist
     indexDocument: index.html
 
